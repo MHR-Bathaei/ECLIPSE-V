@@ -2,6 +2,9 @@
 
 ECLIPSE-V is a framework-free, dependency-lean native C++ object detection engine designed for high-frequency robotic telemetry. By bypassing heavy computer vision libraries and high-overhead runtimes, the engine utilizes custom memory-mapped loops and close-to-the-silicon hardware scaling to achieve ultra-low latency execution on edge devices.
 
+### 👁️ Inference Output Visualization
+![ECLIPSE-V Real-Time Detection Output](output.jpg)
+
 ---
 
 ## 💻 Hardware Specification Baseline
