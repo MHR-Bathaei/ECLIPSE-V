@@ -1,0 +1,30 @@
+# Compiler & Engine Build Artifacts
+src/build/
+build/
+.cmake/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+ninja.build
+
+# Heavy ONNX Runtime Vendor Binaries
+deps/onnxruntime/
+
+# Executables & Native Libraries
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.pdb
+
+# Local Data payloads
+src/test.jpg
+src/output.jpg
+
+# IDE & OS Garbage
+.vscode/
+.DS_Store
+Thumbs.db
